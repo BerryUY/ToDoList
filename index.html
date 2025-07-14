@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>todo list</title>
+    <link href="src/output.css" rel="stylesheet">
+    <link href="src/input.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body class="min-h-screen flex items-center justify-center bg-amber-200 flex-col px-4">
+    <h1 class="text-3xl sm:text-4xl mb-10 text-center max-w-xl mx-auto">
+      To do list completamente funcional ñeri pa la familia ya sabe
+    </h1>
+<div class="flex flex-col">
+    <form class="p-7 flex flex-col sm:flex-row sm:items-center sm:justify-center gap-4" id="form">
+        <input type="text" placeholder="Agregar nueva tarea" required class="text-2xl bg-amber-300 p-4 pl-5 rounded-3xl focus:outline-none shadow-2xl w-full max-w-md" id="task">
+        <button class="py-3 px-5 bg-amber-400 rounded-3xl hover:bg-amber-500 transition text-white text-2xl cursor-pointer" type="submit" id="submitBtn">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+    </form>
+</div>
+
+    <div id="alertaContainer" class="w-full max-w-md"></div>
+
+    <ul id="lista" class="w-full max-w-md mt-8 space-y-4"></ul>
+
+    <script src="index.js" type="module"></script>
+</body>
+</html>
