@@ -1,1 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap');
 @import "tailwindcss";
+
+body {
+    font-family: 'Winky Rough', cursive;
+    background-color: #f0f0f0;
+}
